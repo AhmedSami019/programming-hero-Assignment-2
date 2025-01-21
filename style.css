@@ -54,6 +54,9 @@
 .logo{
     align-items: center;
 }
+.logo img{
+    height: 70%;
+}
 .logo-name{
     font-size: 2rem;
 }
@@ -65,4 +68,22 @@
     list-style: none;
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+/* media query section */
+
+@media screen and (max-width: 576px) {
+    .navbar .icon{
+        display: block;
+        width: 30px;
+    }
+    .navbar{
+        padding: 1rem;
+    }
+    .logo-name,
+    .nav-menu,
+    .nav-btn
+    {
+        display: none;
+    }
 }
