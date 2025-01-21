@@ -118,7 +118,7 @@ main {
     font-size: 2rem;
 }
 
-.navbar a {
+ a {
     text-decoration: none;
     color: white;
 
@@ -269,6 +269,35 @@ p {
     top: -20px;
 }
 
+/* footer section styles */
+footer{
+    background-color: rgba(1, 172, 253, 1);
+}
+.footer-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 6.3rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+}
+.footer-logo{
+    margin-bottom: 2.5rem;
+}
+.about-school{
+    flex-direction: column;
+    gap: 20px;
+}
+.keep-in-touch{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.footer-icons{
+    gap: 10px;
+}
+
 
 /* media query section */
 
@@ -279,7 +308,8 @@ p {
 
     .navbar,
     .banner,
-    .curriculum-cards-area
+    .curriculum-cards-area,
+    .footer-content
     {
         padding: 1rem;
     }
@@ -307,13 +337,17 @@ p {
         width: 100%;
     }
     .curriculum-cards-area,
-    .story-cards
+    .story-cards,
+    .footer-content
     {
         grid-template-columns: 1fr;
     }
     .small-cards{
         grid-template-columns: repeat(2, 1fr);
         padding: 1rem;
+    }
+    .footer-content p{
+        width: 80%;
     }
 }
 
@@ -326,7 +360,8 @@ p {
     .navbar,
     .banner,
     .curriculum-cards-area,
-    .our-story
+    .our-story,
+    .footer-content
     {
         padding: 1rem;
     }
@@ -339,7 +374,8 @@ p {
         display: none;
     }
     .curriculum-cards-area,
-    .story-cards
+    .story-cards,
+    .footer-content
     {
         grid-template-columns: 1fr;
     }
