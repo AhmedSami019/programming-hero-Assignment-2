@@ -283,6 +283,9 @@ footer{
 .footer-logo{
     margin-bottom: 2.5rem;
 }
+.footer-logo-name{
+    font-size: 2rem;
+}
 .about-school{
     flex-direction: column;
     gap: 20px;
@@ -341,6 +344,12 @@ footer{
     {
         grid-template-columns: 1fr;
     }
+    .card-title{
+        font-size: .9rem;
+    }
+    .btn-card{
+        font-size: .5rem;
+    }
     .small-cards{
         grid-template-columns: repeat(2, 1fr);
         padding: 1rem;
@@ -348,6 +357,7 @@ footer{
     .footer-content p{
         width: 80%;
     }
+    
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
