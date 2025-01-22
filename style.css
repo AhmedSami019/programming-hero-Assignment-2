@@ -307,7 +307,9 @@ footer{
     .navbar .icon {
         display: block;
     }
-
+    .navbar{
+        border-bottom: 1px solid #FEA301;
+    }
     .navbar,
     .banner,
     .curriculum-cards-area,
@@ -344,8 +346,14 @@ footer{
     {
         grid-template-columns: 1fr;
     }
+    .section-title{
+        text-align: center;
+    }
     .card-title{
         font-size: .9rem;
+    }
+    .story-card-content{
+        padding: 0 1.2rem;
     }
     .btn-card{
         font-size: .5rem;
@@ -357,6 +365,9 @@ footer{
     .footer-content p{
         width: 80%;
     }
+    .footer-content .mobile-margin-bottom{
+        margin-bottom: 50px;
+    }
     
 }
 
@@ -365,7 +376,9 @@ footer{
         display: block;
         width: 30px;
     }
-
+    .navbar{
+        border-bottom: 1px solid #FEA301;
+    }
     .navbar,
     .banner,
     .curriculum-cards-area,
@@ -387,5 +400,8 @@ footer{
     .footer-content
     {
         grid-template-columns: 1fr;
+    }
+    .footer-content .mobile-margin-bottom{
+        margin-bottom: 50px;
     }
 }
